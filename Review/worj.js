@@ -8,15 +8,31 @@ const ids=[{name:'Snake',img:'img/snake.jpeg',review:'Many people fear snakes fo
 
 let id=0;
 
-function right(){
-    id++;
-    if(id>(ids.length-1)){
-        id=0;
-    };
-    return(id);
-}
-
-document.getElementById('right').addEventListener('click',function(){
-    document.getElementById('pic').src
+window.addEventListener('DOMContentLoaded',function(){
+    showDetails(id);
 });
 
+function showDetails(id){
+    const item=ids[id];
+    document.getElementById('pic').src=item.img;
+    document.getElementById('name').innerText=item.name;
+    document.getElementById('reviews').innerText=item.review;
+};
+
+// Right button:
+document.getElementById('right').addEventListener('click',function(){
+    id++;
+    if (id>(ids.length-1)){
+        id=0;
+    };
+    showDetails(id);
+});
+
+// Left button:
+document.getElementById('left').addEventListener('click',function(){
+    id--;
+    if (id<0){
+        id=(ids.length-1);
+    };
+    showDetails(id);
+});

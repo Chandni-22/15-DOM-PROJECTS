@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+body{
+    font-family: Arial, sans-serif;;
+}
+#menu-btn{
+    float: right;
+    background-color: #333;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0.4rem;
+    transition: transform 0.2s;
+    margin: 1rem;
+}
+#menu-btn:hover{
+    transform: rotate(90deg);
+}
+#sidebar{
+    background-color: #333;
+    width: 50%;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: fixed;
+}
+h1{
+    padding: 25px 20px;
+    font-size: 45px;
+    background-color: #575757;
+}
+#nav-link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    padding: 34px 20px;
+    font-size: 30px;
+}
+a:hover{
+    background-color: #575757;
+}
+footer{
+    background-color: #333;
+    font-size: 25px;
+    padding: 1rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+}
+footer i{
+    padding: 1rem;
+}
+.fa-whatsapp:hover{
+    color: rgb(4, 165, 4);
+}
+.fa-linkedin:hover{
+    color: rgb(19, 108, 241);
+}
+.fa-instagram:hover{
+    color: magenta;
+}
+.fa-twitter:hover{
+    color: lightskyblue;
+}
+.fa-facebook:hover{
+    color: rgb(57, 142, 238);
+}
+.fa-github:hover{
+    color: rgb(199, 198, 198);
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background-clouds.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    width: 100%;
+    font-size: 45px;
+    border: 3px solid blue;
+    background-color: lightskyblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+    text-align: center;
+}
+#open{
+    margin-top: 19%;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid blue;
+    border-radius: 9px;
+    background-color: lightskyblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#open:hover{
+    border-color: black;
+    background-color: whitesmoke;
+}
+#modal{
+    display: none;
+    height: 25rem;
+    width: 35rem;
+    background-color: lightskyblue;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 26px;
+    position: fixed;
+    top: 30%;
+}
+h3{
+    text-align: center;
+    padding-top: 30%;
+}
+#close{
+    height: 1rem;
+    width: 1rem;
+    font-size: 10px;
+    float: right;
+    /* background: none; */
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 1rem;
+}
+#close:hover{
+    height: 2rem;
+    width: 2rem;
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    border-color: red;
+}

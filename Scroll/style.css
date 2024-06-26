@@ -2,8 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+
 }
-nav {
+nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -18,34 +19,32 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
-nav ul li a {
+nav ul li a{
     color: red;
     text-decoration: none;
     font-size: 35px;
     padding: 10px 15px;
     border-radius: 5px;
 }
-nav ul li a:hover {
+nav ul li a:hover{
     background-color: rgb(156, 167, 5);
     color: black;
 }
-.section {
+.section{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
     padding-top: 50px;
 }
-.content {
+.content{
     text-align: center;
 }
-#home {
-    background-image: url(Tabs/fall.png);
+#home{
+    background-image: url(fall.png);
     background-size: cover;
 }
-
-#home .content {
-    color: white;
+#home .content{
     text-align: center;
     padding-top: 100px;
     position: absolute;
@@ -53,32 +52,26 @@ nav ul li a:hover {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
-#home h1 {
+#home h1{
     font-size: 56px;
     margin-bottom: 20px;
 }
-
-#home p {
+#home p{
     font-size: 35px;
 }
-
-#about {
+#about{
     background-color: rgb(166, 171, 93);
     font-size: 35px;
 }
-
-#services {
+#services{
     background-color: rgb(159, 170, 177);
     font-size: 35px;
 }
-
-#tours {
+#tours{
     background-color: lightblue;
     font-size: 35px;
 }
-
-footer {
+footer{
     background-color: #333;
     color: white;
     text-align: center;

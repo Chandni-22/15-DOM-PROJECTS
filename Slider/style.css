@@ -6,7 +6,7 @@ body{
 h1{
     text-align: center;
     font-size: 55px;
-    margin-top: 5%;
+    margin-top: 10%;
     text-decoration: underline;
 }
 #container{
@@ -15,10 +15,17 @@ h1{
     flex-direction: column;
     margin-top: 5%;
 }
-img{
+#slider{
     height: 20rem;
     width: 34rem;
-    border: 4px double black;
+    border: 5px double black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(138, 161, 204,0.3);
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button{
